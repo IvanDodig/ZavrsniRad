@@ -1,0 +1,49 @@
+body{
+	color: grey;
+}
+
+.chart-container {
+	width:  80%;
+	height: 480px;
+	margin: 0 auto;
+}
+
+.pie-chart-container {
+	width : 360px;
+	height : 360px;
+	float : left;
+}
+
+body{
+	background-color: #eeeeee;
+}
+
+nav {
+	background-color: rgb(3,122,166);
+	margin-bottom: 50px;
+}
+
+.card{
+	margin : auto !important;
+	margin-top: 50px;
+}
+
+.buton {
+	margin: 20px 0px !important;
+}
+
+.datum {
+	padding-top: 20px;
+}
+
+#failed {
+	padding-bottom: 20px;
+}
+
+#lista ul{
+	text-align: left;
+}
+
+.maximum {
+	margin-top: 75px;
+}

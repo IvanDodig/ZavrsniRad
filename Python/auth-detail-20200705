@@ -1,0 +1,113 @@
+Sun Jul  5 21:56:28 2020
+	Packet-Type = Access-Request
+	User-Name = "anonymous@sum.ba"
+	NAS-Identifier = "2ae829fbbcf2"
+	Called-Station-Id = "2A-E8-29-FB-BC-F2:eduroam"
+	NAS-Port-Type = Wireless-802.11
+	Service-Type = Framed-User
+	Calling-Station-Id = "88-29-9C-11-7C-E5"
+	Connect-Info = "CONNECT 0Mbps 802.11b"
+	Acct-Session-Id = "2CDC5D69F90307E4"
+	WLAN-Pairwise-Cipher = 1027076
+	WLAN-Group-Cipher = 1027076
+	WLAN-AKM-Suite = 1027073
+	Framed-MTU = 1400
+	EAP-Message = 0x02d8001501616e6f6e796d6f75734073756d2e6261
+	Message-Authenticator = 0xc0ee8dd61a5656c085e796fd0a9c48b9
+	Timestamp = 1593978988
+
+Sun Jul  5 21:56:28 2020
+	Packet-Type = Access-Request
+	User-Name = "anonymous@sum.ba"
+	NAS-Identifier = "2ae829fbbcf2"
+	Called-Station-Id = "2A-E8-29-FB-BC-F2:eduroam"
+	NAS-Port-Type = Wireless-802.11
+	Service-Type = Framed-User
+	Calling-Station-Id = "88-29-9C-11-7C-E5"
+	Connect-Info = "CONNECT 0Mbps 802.11b"
+	Acct-Session-Id = "2CDC5D69F90307E4"
+	WLAN-Pairwise-Cipher = 1027076
+	WLAN-Group-Cipher = 1027076
+	WLAN-AKM-Suite = 1027073
+	Framed-MTU = 1400
+	EAP-Message = 0x02d900a91500160301009e0100009a030319529e4488c10b838cdd9776fe8530c47420989a93b6a7878b4610cd5918975620eaa82ee0d45a356eb158bb749c76940571a31fe338b6eda81629453c9f7e0345001ec02bc02fc02cc030cca9cca8c009c013c00ac014009c009d002f0035000a0100003300170000ff01000100000a00080006001d00170018000b00020100000d00140012040308040401050308050501080606010201
+	State = 0x26b0fcfd2669e98947e78b3c9f8c5645
+	Message-Authenticator = 0x730cfd8b2ec290306975b3b3f4d730d5
+	Timestamp = 1593978988
+
+Sun Jul  5 21:56:28 2020
+	Packet-Type = Access-Request
+	User-Name = "anonymous@sum.ba"
+	NAS-Identifier = "2ae829fbbcf2"
+	Called-Station-Id = "2A-E8-29-FB-BC-F2:eduroam"
+	NAS-Port-Type = Wireless-802.11
+	Service-Type = Framed-User
+	Calling-Station-Id = "88-29-9C-11-7C-E5"
+	Connect-Info = "CONNECT 0Mbps 802.11b"
+	Acct-Session-Id = "2CDC5D69F90307E4"
+	WLAN-Pairwise-Cipher = 1027076
+	WLAN-Group-Cipher = 1027076
+	WLAN-AKM-Suite = 1027073
+	Framed-MTU = 1400
+	EAP-Message = 0x02da00061500
+	State = 0x26b0fcfd276ae98947e78b3c9f8c5645
+	Message-Authenticator = 0x0837cbe1bc293b73a38fc6bbe83dad55
+	Timestamp = 1593978988
+
+Sun Jul  5 21:56:28 2020
+	Packet-Type = Access-Request
+	User-Name = "anonymous@sum.ba"
+	NAS-Identifier = "2ae829fbbcf2"
+	Called-Station-Id = "2A-E8-29-FB-BC-F2:eduroam"
+	NAS-Port-Type = Wireless-802.11
+	Service-Type = Framed-User
+	Calling-Station-Id = "88-29-9C-11-7C-E5"
+	Connect-Info = "CONNECT 0Mbps 802.11b"
+	Acct-Session-Id = "2CDC5D69F90307E4"
+	WLAN-Pairwise-Cipher = 1027076
+	WLAN-Group-Cipher = 1027076
+	WLAN-AKM-Suite = 1027073
+	Framed-MTU = 1400
+	EAP-Message = 0x02db00841500160303004610000042410446814b42e17986ad4425e8fefe22ce3f71af244a5eea2e141cc2639b00318d8c0032d82caab845665a08c76d095639619e687564d067146c0802941aba49d54e14030300010116030300280000000000000000f532b4adfeab44ec376c571f690f1a93afcea74064f7ca3971cc4827f2467253
+	State = 0x26b0fcfd246be98947e78b3c9f8c5645
+	Message-Authenticator = 0x2950d1909e854ff12fbb251e9965070e
+	Timestamp = 1593978988
+
+Sun Jul  5 21:56:28 2020
+	Packet-Type = Access-Request
+	User-Name = "anonymous@sum.ba"
+	NAS-Identifier = "2ae829fbbcf2"
+	Called-Station-Id = "2A-E8-29-FB-BC-F2:eduroam"
+	NAS-Port-Type = Wireless-802.11
+	Service-Type = Framed-User
+	Calling-Station-Id = "88-29-9C-11-7C-E5"
+	Connect-Info = "CONNECT 0Mbps 802.11b"
+	Acct-Session-Id = "2CDC5D69F90307E4"
+	WLAN-Pairwise-Cipher = 1027076
+	WLAN-Group-Cipher = 1027076
+	WLAN-AKM-Suite = 1027073
+	Framed-MTU = 1400
+	EAP-Message = 0x02dc005315001703030048000000000000000159481337a28f97c45c0c29b9121141869369c326e28ed25494ef940210c7da056c7b3d89fd963b7fb46e3d5e3aa599564fff38a5ed595bad0fac18ed5c9ca368
+	State = 0x26b0fcfd256ce98947e78b3c9f8c5645
+	Message-Authenticator = 0x01fb83cb67878b6de248c17e30bbb93b
+	Timestamp = 1593978988
+
+Sun Jul  5 21:56:28 2020
+	Packet-Type = Access-Request
+	User-Name = "kmatic2@sum.ba"
+	FreeRADIUS-Proxied-To = 127.0.0.1
+	NAS-Identifier = "2ae829fbbcf2"
+	Called-Station-Id = "2A-E8-29-FB-BC-F2:eduroam"
+	NAS-Port-Type = Wireless-802.11
+	Service-Type = Framed-User
+	Calling-Station-Id = "88-29-9C-11-7C-E5"
+	Connect-Info = "CONNECT 0Mbps 802.11b"
+	Acct-Session-Id = "2CDC5D69F90307E4"
+	WLAN-Pairwise-Cipher = 1027076
+	WLAN-Group-Cipher = 1027076
+	WLAN-AKM-Suite = 1027073
+	Framed-MTU = 1400
+	Event-Timestamp = "Jul  5 2020 21:56:28 CEST"
+	NAS-IP-Address = 212.39.115.21
+	Timestamp = 1593978988
+

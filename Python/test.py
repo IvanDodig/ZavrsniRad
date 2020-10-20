@@ -20,27 +20,19 @@ with open("radius.log", "r") as file:
         poruka = ""
         for por in porukaNiz:
             poruka += por + " "
-
         if tipPoruke == "Auth":
-            """ Prvi dio auth loga """
             prviDio = poruka.split("[")[0]
-            """ Drugi dio auth loga """
             drugiDio = poruka.split("[")[1]
-
             brojLoga = prviDio.split()[0][1:-1]
 
             logininfo = (prviDio.split(")",1)[1]).split('(',1)
-
-            """ Prvi dio poruke je gotov s definiranjem prijave koja vraca inf tipa Login OK a razlog odbijanja vraca inf ukoliko je neuspješna """
             if len(logininfo) > 1:
                 loginSucces = logininfo[0]
                 failureMsg = logininfo[1].split("):")[0]
             else:
                 loginSucces = logininfo[0].split(":")[0]
                 failureMsg = None
-
             user = drugiDio.split("]")[0]
-
             drugiDioNastavak = drugiDio.split("]")[1]
             client = drugiDioNastavak.split()[2]
             port = (drugiDioNastavak.split()[3] + " " + drugiDioNastavak.split()[4]).split(')')[0]

@@ -40,17 +40,13 @@ function random_rgba() {
 
 function getFailureMsgData(dateFrom, dateTo, podaci){
     var duljina = podaci.length;
-
     dateFrom = new Date(dateFrom);
-
     dateTo = new Date(dateTo).setHours(23,59,59);
     dateTo = new Date(dateTo);
-
     var names = [];
     var labels = [];
     var data = [];
     var colors = [];
-
     for(var i=0; i < duljina; i++){
         var failureMsg = podaci[i].failureMsg;
         var date =  new Date(podaci[i].vrijeme);
@@ -68,14 +64,10 @@ function getFailureMsgData(dateFrom, dateTo, podaci){
             }
         }
     }
-
     for(var j = 0; j < names.length; j++){
         labels.push(j+1);
         colors.push(random_rgba());
     }
-
-    console.log(colors);
-
     return {
         data,
         labels,

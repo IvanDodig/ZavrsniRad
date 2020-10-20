@@ -29,28 +29,19 @@ var configPie = {
 
 
 function getPieData(dateFrom,dateTo,data){
-
     var duljina = data.length;
     var niz = [];
     var nizBrojac = [];
-
     var userNames = [];
     var userSucces = [];
     var userBrojac = [];
-
     dateFrom = new Date(dateFrom);
-
     dateTo = new Date(dateTo).setHours(23,59,59);
     dateTo = new Date(dateTo);
-
     for(var i=0; i < duljina; i++){
-
         var uspjeh = data[i].loginSucces.trim();
         var date =  new Date(data[i].vrijeme);
         var user = data[i].user;
-
-       
-
         if( date >= dateFrom && date <= dateTo){
             if(!userNames.includes(user)){
                 userNames.push(user);
@@ -63,16 +54,13 @@ function getPieData(dateFrom,dateTo,data){
                 var index = userNames.findIndex(indexOF);
                 userBrojac[index] ++;
             }
-        
             if( !niz.includes(uspjeh) ){
-
                 niz.push(uspjeh);
                 const indexOF = (element) => element == uspjeh;
                 var index = niz.findIndex(indexOF);
                 nizBrojac[index] = 1;
 
             } else if( niz.includes(uspjeh)) {
-
                 const indexOF = (element) => element == uspjeh;
                 var index = niz.findIndex(indexOF);
                 nizBrojac[index]++;
@@ -80,10 +68,8 @@ function getPieData(dateFrom,dateTo,data){
             }    
         }        
     }
-
     var brojacMax = []
     var userMax = []
-
     for(var j = 0; j < userNames.length; j++){
         for(var i = 0; i < niz.length; i++){
             if(!brojacMax[i]){
@@ -100,16 +86,12 @@ function getPieData(dateFrom,dateTo,data){
     console.log(niz);
     console.log(brojacMax);
     console.log(userMax);
-
-
-
     return {
         data: nizBrojac,
         labels: niz,
         brojPrijava: brojacMax,
         korisnik: userMax
     }
-
 }
 
 export {getPieData, ctxPie, configPie}

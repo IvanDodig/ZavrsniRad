@@ -22,6 +22,14 @@
         <b>EDUROAM STATISTIKA</b>
     </nav>
 
+    <div class="row container center-align">
+        <ul class="pagination">
+            <li class="active"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="/eduroam/loginok.php">2</a></li>
+            <li class="waves-effect"><a href="/eduroam/lista.php">3</a></li>
+        </ul>
+    </div>
+
     <div class="row">
         
         <div class="card container center-align datum">

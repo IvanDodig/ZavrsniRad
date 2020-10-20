@@ -41,26 +41,21 @@ var config = {
 
 
 function getData(datumOd,datumDo,data){
-	
 	var score = {
 		LoginOK : [],
 		LoginIncorrect : [],
 		labels : []
 	};
-
 	var len = data.length;
-
 	for(var d = new Date(datumOd); d <= new Date(datumDo); d.setDate(d.getDate() + 0.5)){
 		for(var i = 0; i < 24; i += 3){
 			var datum = new Date(d.setHours(i,0,0)); 
 			var datumVrh =  new Date(d.setHours(i + 3,0,0)); 
-			
 			var loginOKBrojac = 0;
 			var loginIncorrectBrojac = 0;
 			for(var j = 0; j < len; j++){
 				var vrijeme = new Date(data[j].vrijeme);
 				if(vrijeme > datum && vrijeme < datumVrh){
-					
 					if(data[j].loginSucces.trim() == "Login OK"){
 						loginOKBrojac ++;                      
 					} else {
@@ -68,10 +63,8 @@ function getData(datumOd,datumDo,data){
 					}
 				}
 			}
-			
 			score.LoginOK.push(loginOKBrojac);
 			score.LoginIncorrect.push(loginIncorrectBrojac);
-	
 			datum = datum.toString();
 			datum = datum.split(' ');
 			if(i == 0){
@@ -82,7 +75,6 @@ function getData(datumOd,datumDo,data){
 			score.labels.push(datum);
 		}
 	}
-    
     return score;
 }
 

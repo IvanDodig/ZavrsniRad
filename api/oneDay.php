@@ -14,7 +14,7 @@ if(!$mysqli){
 }
 
 
-$query = sprintf("SELECT vrijeme, loginSucces, failureMsg, user FROM auth");
+$query = "SELECT client, DATE(STR_TO_DATE(vrijeme, '%a %b %e %H:%i:%s %Y'))as date, COUNT(*) as broj FROM auth WHERE loginSucces LIKE '%Login OK%' GROUP BY client, DATE(STR_TO_DATE(vrijeme, '%a %b %e %H:%i:%s %Y'))";
 
 $result = $mysqli->query($query);
 
